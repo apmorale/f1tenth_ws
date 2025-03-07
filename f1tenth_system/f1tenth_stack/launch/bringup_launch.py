@@ -31,11 +31,11 @@ from ament_index_python.packages import get_package_share_directory
 import os
 
 def generate_launch_description():
-    """ joy_teleop_config = os.path.join(
+    joy_teleop_config = os.path.join(
         get_package_share_directory('f1tenth_stack'),
         'config',
         'joy_teleop.yaml'
-    ) """
+    )
     vesc_config = os.path.join(
         get_package_share_directory('f1tenth_stack'),
         'config',
