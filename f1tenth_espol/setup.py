@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
         'cruise = f1tenth_espol.cruise:main',
         'keyboard = f1tenth_espol.keyboard:main',
-        'keyboard_teleop = f1tenth_espol.keyboard_teleop:main'
+        'keyboard_teleop = f1tenth_espol.keyboard_teleop:main',
+        'gap_follower = f1tenth_espol.gap_follower:main'
         ],
     },
 )
