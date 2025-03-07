@@ -107,12 +107,12 @@ def generate_launch_description():
         name='throttle_interpolator',
         parameters=[LaunchConfiguration('vesc_config')]
     )
-    #urg_node = Node(
-    #    package='urg_node',
-    #    executable='urg_node_driver',
-    #    name='urg_node',
-    #    parameters=[LaunchConfiguration('sensors_config')]
-    #)
+    urg_node = Node(
+        package='urg_node',
+        executable='urg_node_driver',
+        name='urg_node',
+        parameters=[LaunchConfiguration('sensors_config')]
+    )
     ackermann_mux_node = Node(
         package='ackermann_mux',
         executable='ackermann_mux',
