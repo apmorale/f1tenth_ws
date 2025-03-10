@@ -9,8 +9,8 @@ import numpy as np
 
 class GapFollower(Node):
     BUBBLE_RADIUS = 160
-    PREPROCESS_CONV_SIZE = 3
-    BEST_POINT_CONV_SIZE = 80
+    PREPROCESS_CONV_SIZE = 5
+    BEST_POINT_CONV_SIZE = 100
     MAX_LIDAR_DIST = 10
     STRAIGHTS_SPEED = 5.0
     CORNERS_SPEED = 1.5
